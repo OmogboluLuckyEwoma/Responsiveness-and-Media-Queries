@@ -1,0 +1,312 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.head-part  {
+    background: url('Huddle-landing-page-Design/images/bg-hero-desktop.svg');
+}
+.main-container {
+    margin-top: 30px;
+    padding-left: 60px;
+    padding-right: 50px;
+    margin-bottom: 35vh;
+}
+.main-container .div1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.main-container .div1 img {
+    height: 20px;
+    padding-top: 10px;
+}
+.main-container .div1 button {
+    position: relative;
+    background-color: #FFFFFF;
+    border: none;
+    color: #000;
+    padding: 15px;
+    border-radius: 30px;
+    min-height: 17px;
+    min-width: 170px;
+    box-shadow: 0px 0px 2px 2px rgb(238, 236, 236);
+}
+.main-container .div1 button p {
+    font-size: 12px;
+    font-weight: bold;
+}
+.main-container .div2 {
+    padding-top: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+.main-container .div2 .item1 {
+    padding-top: 70px;
+}
+.main-container .div2 .item1 h4 {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.main-container .div2 .item1 p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.main-container .div2 .item1 button {
+    margin-top: 20px;
+    position: relative;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    color: #fff;
+    padding: 15px;
+    border-radius: 30px;
+    min-height: 17px;
+    min-width: 250px;
+    box-shadow: 0px 0px 2px 2px rgb(238, 236, 236);
+}
+.main-container .div2 .item2 {
+    min-width: 40%;
+    padding-left: 60px;
+}
+.main-container .div2 .item2 img {
+    width: 500px;
+}
+
+.middle-part {
+    background-color: #fff;
+    margin-top: 30vh;
+}
+.middle-part .row1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin-bottom: 18vh;
+}
+.middle-part .row1 .item1 {
+    margin-top: 20vh;
+    width: 40%;
+}
+.middle-part .row1 .item1 h4 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.middle-part .row1 .item1 p {
+    padding-top: 15px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(208, 11%, 55%);
+}
+.middle-part .row1 .item2 {
+    width: 40%;
+}
+.middle-part .row1 .item2 img {
+    width: 100%;
+}
+
+footer{
+    background-color: hsl(192, 100%, 9%);
+}
+
+.svg-img{
+    filter: invert(97%) sepia(32%) saturate(0%) hue-rotate(72deg) brightness(104%) contrast(103%);
+}
+.foot-container {
+    padding: 25vh 15vh 15vh 15vh;
+}
+.foot-container .logo {
+    padding-bottom: 30px;
+}
+.foot-container .row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.foot-container .row .items {
+    width: 25%;
+}
+.foot-container .row .items .f-col {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+.foot-container .row .items .f-col .f-col1 {
+    display: flex;
+    flex-flow: column;
+}
+.foot-container .row .items .f-col .f-col1 a {
+    text-decoration: none;
+    padding-bottom: 10px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+.f-row{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.f-row a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    margin-left: 10px;
+}
+.f-row .p {
+    width: 90%;
+}
+.f-row .p p {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+.f-row img {
+    height: 12px;
+    
+}
+.stack-container {
+    width: 70%;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #fff;
+    position: relative;
+    bottom: -70px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.stack-container h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.stack-container button {
+    margin-top: 20px;
+    position: relative;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    color: #fff;
+    padding: 15px;
+    border-radius: 30px;
+    min-height: 17px;
+    min-width: 250px;
+    box-shadow: 0px 0px 2px 2px rgb(238, 236, 236);
+}
+
+@media (width: 375px) {
+    *{
+        padding: 0;
+    }
+    .main-container {
+        margin-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .main-container .div1 {
+        display: flex;
+        flex-flow: row nowrap;
+        padding: 0;
+        margin: 0;
+    }
+    .main-container .div1 img {
+        height: 10px;
+        padding-top: 10px;
+    }
+    .main-container .div1 button {
+        padding: 10px;
+        border-radius: 20px;
+        min-height: 17px;
+        min-width: 80px;
+    }
+    
+    .main-container .div2 {
+        padding: 20px 5px 10px 5px;
+        flex-flow: column;
+        justify-content: center;
+    }
+    .main-container .div2 .item1 {
+        padding-top: 30px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-container .div2 .item1 h4 {
+        font-size: 22px;
+        padding-bottom: 18px;
+    }
+    .main-container .div2 .item1 p {
+        font-size: 12px;
+    }
+    .main-container .div2 .item1 button {
+        min-width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-container .div2 .item2 {
+        min-width: 100%;
+        padding: 28px 0 0;
+    }
+    .main-container .div2 .item2 img {
+        width: 40vh;
+    }
+    .middle-part {
+        margin-top: 8vh;
+    }
+    .middle-part .row1 {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    .middle-part .row1 .item1 {
+        order: 2;
+        width: 100%;
+        margin-top: 10vh;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .middle-part .row1 .item1 p {
+        padding-top: 15px;
+        font-size: 12px;
+    }
+    .middle-part .row1 .item2 {
+        width: 100%;
+    }
+    .foot-container {
+        padding: 0vh 3vh 5vh 3vh;
+    }
+    .foot-container .logo {
+        padding-top: 15vh;
+    }
+    .foot-container .logo .svg-img{
+        width: 20vh;
+    }
+    .stack-container {
+        width: 90%;
+        bottom: -40px;
+    }
+    .stack-container h4 {
+        font-size: 12px;
+    }
+    .foot-container .row {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+    }
+    .foot-container .row .items {
+        width: 100%;
+    }
+    
+}
